@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Form } from 'react-bootstrap';
 
-export default class FormEntry extends Component {
+export default class FormField extends Component {
 
   render(){
     return (
