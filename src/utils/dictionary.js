@@ -1,5 +1,5 @@
 const dictionary = {
-    FORM_NAME: "New Assistance Request",
+    TITLE: "New Assistance Request",
     FIRST_NAME: "First Name",
     LAST_NAME: "Last Name",
     EMAIL_ADDRESS: "Email Address",
