@@ -6,6 +6,7 @@ import FormField from "./components/formField";
 import SubmitButton from "./components/button";
 import DropDown from "./components/dropDown"
 import CheckBox from "./components/checkBox"
+import TextField from "./components/textField"
 import dictionary from "./utils/dictionary";
 
 
@@ -36,6 +37,7 @@ export default class App extends Component {
                     label={dictionary.EMAIL_ADDRESS}
                 />
                 <DropDown/>
+                <TextField/>
                 <CheckBox label={dictionary.PRIVACY_POLICY}/>
             </Form>
             <SubmitButton buttonText={dictionary.SUBMIT}/>
