@@ -7,6 +7,7 @@ import SubmitButton from "./components/button";
 import DropDown from "./components/dropDown"
 import CheckBox from "./components/checkBox"
 import TextField from "./components/textField"
+import Header from "./components/header"
 import dictionary from "./utils/dictionary";
 
 
@@ -19,20 +20,20 @@ export default class App extends Component {
 
     return (
         <div>
-            <h1>{dictionary.TITLE}</h1>
+            <Header title={dictionary.TITLE}/>
             <Form>
                 <FormField
-                    type='firstName'
+                    type={dictionary.FIRST_NAME}
                     placeholder={dictionary.FIRST_NAME}
                     label={dictionary.FIRST_NAME}
                 />
                 <FormField
-                    type='lastName'
+                    type={dictionary.LAST_NAME}
                     placeholder={dictionary.LAST_NAME}
                     label={dictionary.LAST_NAME}
                 />
                 <FormField
-                    type='email'
+                    type={dictionary.EMAIL_ADDRESS}
                     placeholder={dictionary.EMAIL_ADDRESS}
                     label={dictionary.EMAIL_ADDRESS}
                 />
